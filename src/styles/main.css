@@ -1,0 +1,238 @@
+/* ============ design tokens — retro academic / print ============ */
+:root {
+  color-scheme: light;
+  --bg: #faf8f2;
+  --bg-alt: #f2eee2;
+  --surface: #fffdf7;
+  --border: #d8d2c0;
+  --border-strong: #b9b19a;
+  --text: #1a1a18;
+  --text-muted: #57534a;
+  --accent: #2f5d43;
+  --accent-soft: rgba(47, 93, 67, 0.08);
+  --accent-ink: #faf8f2;
+  --teal: #2d4a7c;
+  --radius: 0px;
+  --font-serif: 'EB Garamond', Georgia, 'Times New Roman', serif;
+  --font-sans: 'EB Garamond', Georgia, serif;
+  --font-mono: 'IBM Plex Mono', ui-monospace, 'Cascadia Mono', monospace;
+}
+
+/* night variant — a book printed in negative */
+[data-theme='dark'] {
+  color-scheme: dark;
+  --bg: #16140f;
+  --bg-alt: #1d1a14;
+  --surface: #201d16;
+  --border: #3a352a;
+  --border-strong: #57503f;
+  --text: #e9e4d5;
+  --text-muted: #a89f8b;
+  --accent: #7cc39a;
+  --accent-soft: rgba(124, 195, 154, 0.1);
+  --accent-ink: #16140f;
+  --teal: #8aa8d8;
+}
+
+/* ============ base ============ */
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 72px;
+}
+
+body {
+  font-family: var(--font-serif);
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+  font-size: 18px;
+  -webkit-font-smoothing: antialiased;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-serif);
+  font-weight: 600;
+  line-height: 1.15;
+  letter-spacing: 0.005em;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+a:hover {
+  text-decoration-thickness: 2px;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* ============ layout utilities ============ */
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.section {
+  padding: 52px 0;
+  border-top: 1px solid var(--border);
+}
+
+/* small-caps section kicker, like a running head */
+.kicker {
+  font-family: var(--font-serif);
+  font-variant: small-caps;
+  font-size: 15px;
+  letter-spacing: 0.14em;
+  color: var(--accent);
+  margin-bottom: 10px;
+}
+
+.section-head h2 {
+  font-size: clamp(26px, 3.4vw, 34px);
+  margin-bottom: 8px;
+}
+
+/* thin double rule under section heads, print style */
+.section-head {
+  border-bottom: 3px double var(--border-strong);
+  padding-bottom: 10px;
+  margin-bottom: 26px;
+}
+
+.lede {
+  font-style: italic;
+  color: var(--text-muted);
+  max-width: 62ch;
+  margin-bottom: 22px;
+}
+
+/* ============ components ============ */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--font-mono);
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 9px 16px;
+  border: 1px solid var(--border-strong);
+  border-radius: 0;
+  color: var(--text);
+  background: transparent;
+  cursor: pointer;
+  text-decoration: none;
+  transition: border-color 0.2s, color 0.2s, background 0.2s;
+}
+.btn:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  text-decoration: none;
+}
+.btn.primary {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--accent-ink);
+  font-weight: 500;
+}
+.btn.primary:hover {
+  filter: brightness(1.12);
+  color: var(--accent-ink);
+}
+
+.pill {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  padding: 3px 8px;
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+  background: transparent;
+}
+
+.badge {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 2px 7px;
+  border: 1px solid var(--accent);
+  background: var(--accent-soft);
+  color: var(--accent);
+}
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 0;
+  padding: 22px;
+  transition: border-color 0.25s ease;
+}
+.card:hover {
+  border-color: var(--border-strong);
+}
+
+.mono {
+  font-family: var(--font-mono);
+}
+
+/* visible marker for content that still needs to be written */
+.todo {
+  color: var(--teal);
+  background: var(--bg-alt);
+  border-left: 2px solid var(--teal);
+  padding: 8px 12px;
+  font-family: var(--font-mono);
+  font-size: 13px;
+}
+
+/* ============ scroll reveal ============ */
+.reveal {
+  opacity: 0;
+  transform: translateY(14px);
+  transition: opacity 0.55s ease, transform 0.55s ease;
+}
+.reveal.is-visible {
+  opacity: 1;
+  transform: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+  .card {
+    transition: none;
+  }
+}
+
+@media (max-width: 640px) {
+  body {
+    font-size: 17px;
+  }
+  .section {
+    padding: 40px 0;
+  }
+}

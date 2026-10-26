@@ -1,0 +1,12 @@
+node_modules/
+dist/
+*.log
+
+# private — never commit (kept on disk only)
+CV - AdithamaMulia.pdf
+Laporan_Magang.pdf
+laporan_magang.txt
+Publications/
+DATA.md
+PLAN.md
+tutor.txt

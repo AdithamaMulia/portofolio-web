@@ -1,0 +1,356 @@
+{
+  "nav": {
+    "name": "Adithama Mulia",
+    "about": "About",
+    "experience": "Experience",
+    "publications": "Publications",
+    "projects": "Projects",
+    "skills": "Skills",
+    "education": "Education",
+    "contact": "Contact",
+    "switchLang": "Switch language",
+    "switchTheme": "Toggle dark / light theme"
+  },
+  "hero": {
+    "greeting": "Data Science · Machine Learning · AI",
+    "name": "Adithama Mulia",
+    "headline": "Fresh Graduate - Informatics, Universitas Multimedia Nusantara",
+    "tagline": "Data analysis, machine learning, and AI - from race-aware genomic research to real-time computer vision on the production line.",
+    "cta": {
+      "email": "Email Me"
+    }
+  },
+  "about": {
+    "title": "About",
+    "bio": "Fresh graduate in Informatics skilled in Python, data analysis, machine learning, and AI. Experienced in data preprocessing, ML model development, and project planning. Interested in applying and further developing expertise in Data Analytics, Data Science, and AI.",
+    "stats": [
+      { "value": "3.56/4.00", "label": "GPA" },
+      { "value": "970/990", "label": "TOEIC" },
+      { "value": "4", "label": "Publications" }
+    ]
+  },
+  "experience": {
+    "title": "Experience",
+    "jobs": [
+      {
+        "period": "July 2026 - Now",
+        "role": "Research Assistant",
+        "org": "Universitas Multimedia Nusantara",
+        "location": "Tangerang, Indonesia",
+        "bullets": [
+          "Developing a multi-modal machine learning model to classify biomedical data.",
+          "Implementing data preprocessing, feature engineering, and model training pipelines.",
+          "Collaborating with a team of researchers to analyze results and prepare publications."
+        ]
+      },
+      {
+        "period": "Aug 2025 - Feb 2026",
+        "role": "Machine Learning Engineer Intern",
+        "org": "PT Akebono Brake Astra Indonesia (Akebono Brake Industry Co., Ltd.)",
+        "location": "Jakarta Utara, Indonesia",
+        "bullets": [
+          "Developed an LSTM-based forecasting model in TensorFlow to predict machining performance from historical sensor and production data, improving forecast reliability by an estimated 40-50%.",
+          "Designed and deployed a real-time defect detection system using YOLOv11 and OpenCV, reducing manual inspection effort by an estimated 50-70% while improving detection consistency across production batches."
+        ]
+      },
+      {
+        "period": "Feb 2025 - Sep 2025",
+        "role": "Research Assistant",
+        "org": "Universitas Multimedia Nusantara",
+        "location": "Tangerang, Indonesia",
+        "bullets": [
+          "Built a feature-driven deep learning TensorFlow pipeline to classify cancer stages from DNA methylation data, cutting the features needed by 90% while maintaining 98% accuracy.",
+          "Performed feature engineering on high-dimensional methylation data (485K variables, 549 samples) using bioinformatics methods to uncover patterns linked to cancer development.",
+          "Authored a Q2 academic paper documenting the research outcomes.",
+          "Funded by Kemdiktisaintek regular fundamental research scheme with contract number 0993/LL3/AL.04/2025"
+        ]
+      },
+      {
+        "period": "May 2024 - Jan 2025",
+        "role": "Research Assistant",
+        "org": "Universitas Multimedia Nusantara",
+        "location": "Tangerang, Indonesia",
+        "bullets": [
+          "Designed and implemented a feature-driven TensorFlow framework for cancer classification from gene expression data, using feature selection and hyperparameter optimization to achieve 95-98% accuracy.",
+          "Collected, cleaned, and analyzed data to train ML models distinguishing healthy and cancerous samples using Scikit-Learn, Pandas, and NumPy.",
+          "Co-authored a published Q2 research paper presenting the study's methods and results.",
+          "Funded by Universitas Multimedia Nusantara Research Department (0020-RD-LPPM-UMN/P-INT/VI/2024)"
+        ]
+      }
+    ]
+  },
+  "publications": {
+    "title": "Publications",
+    "lede": "Four peer-reviewed papers on race-specific machine learning for prostate cancer detection and staging.",
+    "read": "Read",
+    "items": [
+      {
+        "title": "Artificial Intelligence Design for Race-Based Prostate Cancer Stage Classification With Multilayer Perceptron: Feature Selection Optimization Approach",
+        "journal": "JMIR Formative Research",
+        "year": "2026",
+        "position": "First Author",
+        "link": "https://formative.jmir.org/2026/1/e82587"
+      },
+      {
+        "title": "Framework for Race-Specific Prostate Cancer Detection Using Machine Learning Through Gene Expression Data: Feature Selection Optimization Approach",
+        "journal": "JMIR Bioinformatics and Biotechnology",
+        "year": "2025",
+        "position": "Second Author",
+        "link": "https://bioinform.jmir.org/2025/1/e72423"
+      },
+      {
+        "title": "Optimized Gaussian naïve Bayes for prostate cancer detection in white patients using gene expression data",
+        "journal": "PeerJ Computer Science",
+        "year": "2026",
+        "position": "Co-Author",
+        "link": "https://peerj.com/articles/cs-3405/"
+      },
+      {
+        "title": "Robust Logistic Regression-based diagnosis method of Prostate Cancer using Optimized Feature Selection on Race specific Gene-Expression Datasets",
+        "journal": "Cancer Diagnosis and Prognosis",
+        "year": "2025",
+        "position": "Co-Author",
+        "link": "https://doi.org/10.21873/cdp.10487"
+      }
+    ]
+  },
+  "projects": {
+    "title": "Projects",
+    "lede": "Selected work from research and industry. Case studies describe the problem, approach, and results.",
+    "readCase": "Read case study",
+    "visit": "Visit",
+    "noLink": "No public link",
+    "items": [
+      {
+        "name": "LSTM Predictive Maintenance",
+        "desc": "Sequence-to-sequence LSTM forecasting of CNC spindle sensor data, giving maintenance teams early warning before unplanned downtime.",
+        "tags": ["TensorFlow", "Time Series", "Python"],
+        "case": "akebono-lstm-forecasting"
+      },
+      {
+        "name": "Real-Time Defect Detection",
+        "desc": "YOLOv11 + OpenCV system that inspects assembled components on the production line and classifies them OK/NG in real time.",
+        "tags": ["YOLOv11", "OpenCV", "PyTorch"],
+        "case": "akebono-yolo-defect-detection"
+      },
+      {
+        "name": "Prostate Cancer Detection System",
+        "desc": "Machine-learning detection system with a Streamlit interface, built on race-specific gene-expression research.",
+        "tags": ["Machine Learning", "Streamlit", "Python"],
+        "case": "prostate-cancer-research"
+      },
+      {
+        "name": "MyDNA Drug",
+        "desc": "Personalized treatment using genomic data and AI. Managed research materials, papers, and datasets; secured government incentive funding.",
+        "award": "Best & Most Creative Paper - LLDikti",
+        "tags": ["Genomics", "AI", "Research"]
+      }
+    ]
+  },
+  "skills": {
+    "title": "Skills",
+    "groups": [
+      {
+        "name": "Programming Languages",
+        "items": ["Python", "R", "SQL", "Java", "JavaScript", "HTML", "CSS"]
+      },
+      {
+        "name": "ML & AI",
+        "items": ["TensorFlow", "PyTorch", "Scikit-learn", "Pandas", "NumPy", "YOLO", "OpenCV"]
+      },
+      {
+        "name": "Tools",
+        "items": ["Google Colab", "Jupyter Notebook", "Roboflow", "Label Studio", "DBeaver", "LM Studio", "Ollama", "Microsoft Office"]
+      },
+      {
+        "name": "Spoken Languages",
+        "items": ["Bahasa Indonesia (Native)", "English (Advanced - TOEIC 970/990)"]
+      },
+      {
+        "name": "Soft Skills",
+        "items": ["Analytical Skills", "Research", "Problem-Solving", "Communication", "Teamwork", "Adaptability"]
+      }
+    ]
+  },
+  "education": {
+    "title": "Education & Certificates",
+    "certificatesTitle": "Certificates",
+    "items": [
+      {
+        "period": "Aug 2022 - Aug 2026",
+        "degree": "Bachelor of Informatics",
+        "org": "Universitas Multimedia Nusantara - Kabupaten Tangerang, Indonesia",
+        "note": "Cumulative GPA 3.56 / 4.00"
+      }
+    ],
+    "certificates": [
+      { "name": "Belajar Dasar AI", "issuer": "Dicoding Indonesia", "date": "Oct 2024" },
+      { "name": "Dasar Visualisasi Data", "issuer": "Dicoding Indonesia", "date": "Oct 2024" },
+      { "name": "HCIA-AI V3.5", "issuer": "Huawei", "date": "May 2024" },
+      { "name": "Intro to Data Analytics", "issuer": "RevoU", "date": "Nov 2024" }
+    ]
+  },
+  "contact": {
+    "title": "Contact Me",
+    "text": "Open to opportunities in Data Analytics, Data Science, and AI. The fastest way to reach me is email.",
+    "email": "adithama98@gmail.com"
+  },
+  "footer": {
+    "note": "© 2026 Adithama Mulia"
+  },
+  "case": {
+    "back": "Back to home",
+    "links": "Links"
+  },
+  "cases": {
+    "akebono_lstm_forecasting": {
+      "kicker": "Case Study - Internship",
+      "title": "LSTM Predictive Maintenance for CNC Spindles",
+      "subtitle": "Forecasting machining sensor data to warn of spindle degradation before it causes unplanned downtime.",
+      "imageLabel": "[ pipeline diagram placeholder ]",
+      "note": "Company-confidential specifics (production volumes, exact metrics) are omitted.",
+      "meta": [
+        { "label": "Context", "value": "Internship - PT Akebono Brake Astra Indonesia" },
+        { "label": "Period", "value": "Aug 2025 - Feb 2026" },
+        { "label": "Role", "value": "Machine Learning Engineer Intern" },
+        { "label": "Stack", "value": "Python · TensorFlow · Pandas · NumPy" }
+      ],
+      "sections": [
+        {
+          "heading": "Overview",
+          "paragraphs": [
+            "Built an LSTM forecasting model that predicts CNC machine sensor readings ahead of time, giving the maintenance team early warning of potential spindle issues before they cause unplanned downtime."
+          ]
+        },
+        {
+          "heading": "Problem",
+          "paragraphs": [
+            "The existing preventive maintenance schedule was time-based and couldn't catch failures that happened between service windows. Unexpected breakdowns disrupted production and delivery timelines."
+          ]
+        },
+        {
+          "heading": "Approach",
+          "bullets": [
+            "Sensor telemetries resampled to uniform intervals.",
+            "Sliding lookback/horizon windows convert the time series into supervised learning samples.",
+            "Sequence-to-sequence LSTM trained with Huber loss and early stopping.",
+            "Configurable parameters can be tuned without code changes."
+          ]
+        },
+        {
+          "heading": "Results",
+          "paragraphs": [
+            "+40-50% forecast reliability over period-based maintenance. Delivered as a proof-of-concept pipeline with a simulation dashboard for internal review."
+          ]
+        }
+      ]
+    },
+    "akebono_yolo_defect_detection": {
+      "kicker": "Case Study - Internship",
+      "title": "Real-Time Defect Detection with YOLOv11",
+      "subtitle": "Automated pass/fail visual inspection of assembled components on the production line.",
+      "imageLabel": "[ inspection station photo placeholder ]",
+      "note": "Company-confidential specifics (detection metrics, throughput) are omitted.",
+      "meta": [
+        { "label": "Context", "value": "Internship - PT Akebono Brake Astra Indonesia" },
+        { "label": "Period", "value": "Aug 2025 - Feb 2026" },
+        { "label": "Role", "value": "Machine Learning Engineer Intern" },
+        { "label": "Stack", "value": "Python · YOLOv11 · PyTorch · OpenCV · Roboflow" }
+      ],
+      "sections": [
+        {
+          "heading": "Overview",
+          "paragraphs": [
+            "Developed a real-time computer vision system that automatically inspects assembled components on the production line and classifies them as pass/fail, replacing manual visual checks."
+          ]
+        },
+        {
+          "heading": "Problem",
+          "paragraphs": [
+            "Visual quality inspection was done manually by operators - fatigue and subjective judgment led to inconsistent results, with defective units occasionally passing through. Recording inspection outcomes was slow and paper-based."
+          ]
+        },
+        {
+          "heading": "Approach",
+          "bullets": [
+            "Images captured via production-line cameras.",
+            "Dataset annotated and augmented in Roboflow.",
+            "Trained a YOLOv11 instance-segmentation model to detect multiple assembly checkpoints.",
+            "A Python inspection program reads the live camera feed, runs inference, and tracks component status across frames with a locking mechanism to prevent flicker.",
+            "Signals the line controller when all checkpoints pass; supports model switching so one station can handle multiple product variants."
+          ]
+        },
+        {
+          "heading": "Results",
+          "paragraphs": [
+            "−50-70% manual inspection effort. Deployed and trialed across multiple production lines."
+          ]
+        }
+      ]
+    },
+    "prostate_cancer_research": {
+      "kicker": "Case Study - Research",
+      "title": "Race-Aware ML for Prostate Cancer Detection",
+      "subtitle": "A two-year, four-paper research program on bias-conscious genomic diagnostics.",
+      "imageLabel": "[ research pipeline diagram placeholder ]",
+      "meta": [
+        { "label": "Context", "value": "Research Assistant - Universitas Multimedia Nusantara" },
+        { "label": "Period", "value": "May 2024 - Sep 2025" },
+        { "label": "Data", "value": "TCGA-PRAD (UCSC Xena)" },
+        { "label": "Stack", "value": "Python · TensorFlow · Scikit-Learn · SHAP · LIME" }
+      ],
+      "sections": [
+        {
+          "heading": "Overview",
+          "paragraphs": [
+            "A two-year research program investigating race-specific ML approaches for prostate cancer detection and staging. Gene expression and DNA methylation patterns differ across racial groups, and models trained on mixed-race data can embed bias.",
+            "The four papers progressively build a race-aware, feature-optimized diagnostic framework - from SVM binary detection through Gaussian NB and Logistic Regression, culminating in an MLP for cancer-stage classification with explainable AI (SHAP/LIME)."
+          ]
+        },
+        {
+          "heading": "Datasets",
+          "paragraphs": [
+            "TCGA-PRAD (The Cancer Genome Atlas - Prostate Adenocarcinoma) via the UCSC Xena Browser: 554 samples, race-stratified (White majority; Black/African American and Asian minorities)."
+          ],
+          "bullets": [
+            "Gene expression: RNA-seq HTSeq-Counts (~60K genes, log2(count+1) normalized).",
+            "DNA methylation: Illumina HumanMethylation450 (~485K CpG sites).",
+            "Race-specific splits for training; external validation on minority cohorts."
+          ]
+        },
+        {
+          "heading": "Research Timeline",
+          "bullets": [
+            "JMIR Bioinformatics & Biotechnology (2025) - SVM binary cancer detection with DEG + ROC + MSigDB pathway-verified feature selection.",
+            "PeerJ Computer Science - Gaussian Naive Bayes detection with 96 scenario combinations and LIME interpretability.",
+            "Cancer Diagnosis and Prognosis (2025) - Logistic Regression on a 9-gene subset validated against KEGG/GSEA clinical pathways; fairness analysis across racial groups.",
+            "JMIR Formative Research (2026) - MLP stage classification (Early I-II vs Late III-IV) from DNA methylation data; DMP + RFE feature selection; SHAP + LIME explainability."
+          ]
+        },
+        {
+          "heading": "Key Results",
+          "table": {
+            "headers": ["Paper", "Model", "Features", "Accuracy (White)", "Minority Cohorts"],
+            "rows": [
+              ["JMIR Bioinf", "SVM", "139 / 9 genes", "98% / 97%", "97% / 95% (Black)"],
+              ["PeerJ CS", "Gaussian NB", "13 genes", "95%", "93% (Black)"],
+              ["Cancer Diag Prog", "Logistic Regression", "9 genes", "95%", "96.8% (Black)"],
+              ["JMIR Form Res", "MLP", "90 CpG sites", "95% (AUC 0.99)", "Sharp decline (Asian/Black)"]
+            ]
+          }
+        }
+      ],
+      "links": [
+        { "label": "JMIR Formative Research (2026) - First Author", "url": "https://formative.jmir.org/2026/1/e82587" },
+        { "label": "JMIR Bioinformatics and Biotechnology (2025) - Second Author", "url": "https://bioinform.jmir.org/2025/1/e72423" },
+        { "label": "PeerJ Computer Science - Co-Author", "url": "https://peerj.com/articles/cs-3405/" },
+        { "label": "Cancer Diagnosis and Prognosis - Co-Author", "url": "https://doi.org/10.21873/cdp.10487" }
+      ]
+    }
+  },
+  "notFound": {
+    "title": "Page not found",
+    "message": "404 - the model could not classify this page.",
+    "home": "Back to home"
+  }
+}

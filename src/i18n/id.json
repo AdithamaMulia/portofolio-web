@@ -1,0 +1,356 @@
+{
+  "nav": {
+    "name": "Adithama Mulia",
+    "about": "Tentang",
+    "experience": "Pengalaman",
+    "publications": "Publikasi",
+    "projects": "Proyek",
+    "skills": "Keahlian",
+    "education": "Pendidikan",
+    "contact": "Kontak",
+    "switchLang": "Ganti bahasa",
+    "switchTheme": "Ganti tema gelap / terang"
+  },
+  "hero": {
+    "greeting": "Data Science · Machine Learning · AI",
+    "name": "Adithama Mulia",
+    "headline": "Fresh Graduate - Informatika, Universitas Multimedia Nusantara",
+    "tagline": "Analisis data, machine learning, dan AI — dari riset genomik yang sadar bias hingga computer vision real-time di lini produksi.",
+    "cta": {
+      "email": "Kirim Email"
+    }
+  },
+  "about": {
+    "title": "Tentang Saya",
+    "bio": "Lulusan Informatika dengan kemampuan di bidang Python, analisis data, machine learning, dan AI. Berpengalaman dalam data preprocessing, pengembangan model ML, dan perencanaan proyek. Tertarik menerapkan dan terus mengembangkan keahlian di Data Analytics, Data Science, dan AI.",
+    "stats": [
+      { "value": "3.56/4.00", "label": "IPK" },
+      { "value": "970/990", "label": "TOEIC" },
+      { "value": "4", "label": "Publikasi" }
+    ]
+  },
+  "experience": {
+    "title": "Pengalaman",
+    "jobs": [
+      {
+        "period": "Juli 2026 - Sekarang",
+        "role": "Asisten Peneliti",
+        "org": "Universitas Multimedia Nusantara",
+        "location": "Tangerang, Indonesia",
+        "bullets": [
+          "Mengembangkan model pembelajaran mesin multimodal untuk mengklasifikasikan data biomedis.",
+          "Menerapkan alur kerja prapemrosesan data, rekayasa fitur, dan pelatihan model.",
+          "Bekerja sama dengan tim peneliti untuk menganalisis hasil dan menyiapkan publikasi."
+        ]
+      },
+      {
+        "period": "Agu 2025 - Feb 2026",
+        "role": "Machine Learning Engineer Intern",
+        "org": "PT Akebono Brake Astra Indonesia (Akebono Brake Industry Co., Ltd.)",
+        "location": "Jakarta Utara, Indonesia",
+        "bullets": [
+          "Mengembangkan model forecasting berbasis LSTM dengan TensorFlow untuk memprediksi performa machining dari data sensor dan produksi historis, meningkatkan keandalan prediksi sekitar 40–50%.",
+          "Merancang dan men-deploy sistem deteksi cacat real-time menggunakan YOLOv11 dan OpenCV, mengurangi upaya inspeksi manual sekitar 50–70% sekaligus meningkatkan konsistensi deteksi antar batch produksi."
+        ]
+      },
+      {
+        "period": "Feb 2025 - Sep 2025",
+        "role": "Asisten Peneliti",
+        "org": "Universitas Multimedia Nusantara",
+        "location": "Kota Tangerang, Indonesia",
+        "bullets": [
+          "Membangun pipeline deep learning TensorFlow berbasis fitur untuk mengklasifikasikan stadium kanker dari data metilasi DNA, memangkas kebutuhan fitur hingga 90% dengan akurasi tetap 98%.",
+          "Melakukan feature engineering pada data metilasi berdimensi tinggi (485 ribu variabel, 549 sampel) dengan metode bioinformatika untuk menemukan pola yang terkait perkembangan kanker.",
+          "Menulis paper akademik Q2 yang mendokumentasikan hasil riset.",
+          "Didanai oleh skema penelitian dasar reguler Kemdiktisaintek dengan nomor kontrak 0993/LL3/AL.04/2025"
+        ]
+      },
+      {
+        "period": "Mei 2024 - Jan 2025",
+        "role": "Asisten Peneliti",
+        "org": "Universitas Multimedia Nusantara",
+        "location": "Kota Tangerang, Indonesia",
+        "bullets": [
+          "Merancang dan mengimplementasikan framework TensorFlow berbasis fitur untuk klasifikasi kanker dari data ekspresi gen, dengan feature selection dan optimasi hyperparameter hingga akurasi 95–98%.",
+          "Mengumpulkan, membersihkan, dan menganalisis data untuk melatih model ML yang membedakan sampel sehat dan kanker menggunakan Scikit-Learn, Pandas, dan NumPy.",
+          "Menjadi co-author paper riset Q2 yang dipublikasikan, menyajikan metode dan hasil studi.",
+          "Didanai oleh Departemen Penelitian Universitas Multimedia Nusantara (0020-RD-LPPM-UMN/P-INT/VI/2024)"
+        ]
+      }
+    ]
+  },
+  "publications": {
+    "title": "Publikasi",
+    "lede": "Empat paper peer-reviewed tentang machine learning race-specific untuk deteksi dan staging kanker prostat.",
+    "read": "Baca",
+    "items": [
+      {
+        "title": "Artificial Intelligence Design for Race-Based Prostate Cancer Stage Classification With Multilayer Perceptron: Feature Selection Optimization Approach",
+        "journal": "JMIR Formative Research",
+        "year": "2026",
+        "position": "Penulis Utama",
+        "link": "https://formative.jmir.org/2026/1/e82587"
+      },
+      {
+        "title": "Framework for Race-Specific Prostate Cancer Detection Using Machine Learning Through Gene Expression Data: Feature Selection Optimization Approach",
+        "journal": "JMIR Bioinformatics and Biotechnology",
+        "year": "2025",
+        "position": "Penulis Kedua",
+        "link": "https://bioinform.jmir.org/2025/1/e72423"
+      },
+      {
+        "title": "Optimized Gaussian naïve Bayes for prostate cancer detection in white patients using gene expression data",
+        "journal": "PeerJ Computer Science",
+        "year": "2026",
+        "position": "Co-Author",
+        "link": "https://peerj.com/articles/cs-3405/"
+      },
+      {
+        "title": "Robust Logistic Regression-based diagnosis method of Prostate Cancer using Optimized Feature Selection on Race specific Gene-Expression Datasets",
+        "journal": "Cancer Diagnosis and Prognosis",
+        "year": "2025",
+        "position": "Co-Author",
+        "link": "https://doi.org/10.21873/cdp.10487"
+      }
+    ]
+  },
+  "projects": {
+    "title": "Proyek",
+    "lede": "Karya pilihan dari riset dan industri. Case study menjelaskan masalah, pendekatan, dan hasilnya.",
+    "readCase": "Baca case study",
+    "visit": "Kunjungi",
+    "noLink": "Belum ada link publik",
+    "items": [
+      {
+        "name": "LSTM Predictive Maintenance",
+        "desc": "Forecasting LSTM sequence-to-sequence atas data sensor spindle CNC, memberi peringatan dini ke tim maintenance sebelum terjadi downtime tak terduga.",
+        "tags": ["TensorFlow", "Time Series", "Python"],
+        "case": "akebono-lstm-forecasting"
+      },
+      {
+        "name": "Real-Time Defect Detection",
+        "desc": "Sistem YOLOv11 + OpenCV yang menginspeksi komponen rakitan di lini produksi dan mengklasifikasikannya OK/NG secara real-time.",
+        "tags": ["YOLOv11", "OpenCV", "PyTorch"],
+        "case": "akebono-yolo-defect-detection"
+      },
+      {
+        "name": "Prostate Cancer Detection System",
+        "desc": "Sistem deteksi berbasis machine learning dengan antarmuka Streamlit, dibangun di atas riset ekspresi gen race-specific.",
+        "tags": ["Machine Learning", "Streamlit", "Python"],
+        "case": "prostate-cancer-research"
+      },
+      {
+        "name": "MyDNA Drug",
+        "desc": "Personalisasi pengobatan dengan data genomik dan AI. Mengelola materi riset, paper, dan dataset; memperoleh insentif pendanaan pemerintah.",
+        "award": "Paper Terbaik & Terkreatif - LLDikti",
+        "tags": ["Genomik", "AI", "Riset"]
+      }
+    ]
+  },
+  "skills": {
+    "title": "Keahlian",
+    "groups": [
+      {
+        "name": "Bahasa Pemrograman",
+        "items": ["Python", "R", "SQL", "Java", "JavaScript", "HTML", "CSS"]
+      },
+      {
+        "name": "ML & AI",
+        "items": ["TensorFlow", "PyTorch", "Scikit-learn", "Pandas", "NumPy", "YOLO", "OpenCV"]
+      },
+      {
+        "name": "Tools",
+        "items": ["Google Colab", "Jupyter Notebook", "Roboflow", "Label Studio", "DBeaver", "LM Studio", "Ollama", "Microsoft Office"]
+      },
+      {
+        "name": "Bahasa Lisan",
+        "items": ["Bahasa Indonesia (Native)", "Inggris (Advanced - TOEIC 970/990)"]
+      },
+      {
+        "name": "Soft Skills",
+        "items": ["Kemampuan Analitik", "Riset", "Problem-Solving", "Komunikasi", "Kerja Tim", "Adaptabilitas"]
+      }
+    ]
+  },
+  "education": {
+    "title": "Pendidikan & Sertifikat",
+    "certificatesTitle": "Sertifikat",
+    "items": [
+      {
+        "period": "Agu 2022 - Agu 2026",
+        "degree": "Sarjana Informatika",
+        "org": "Universitas Multimedia Nusantara - Kabupaten Tangerang, Indonesia",
+        "note": "IPK 3.56 / 4.00"
+      }
+    ],
+    "certificates": [
+      { "name": "Belajar Dasar AI", "issuer": "Dicoding Indonesia", "date": "Okt 2024" },
+      { "name": "Dasar Visualisasi Data", "issuer": "Dicoding Indonesia", "date": "Okt 2024" },
+      { "name": "HCIA-AI V3.5", "issuer": "Huawei", "date": "Mei 2024" },
+      { "name": "Intro to Data Analytics", "issuer": "RevoU", "date": "Nov 2024" }
+    ]
+  },
+  "contact": {
+    "title": "Hubungi Saya",
+    "text": "Terbuka untuk peluang di bidang Data Analytics, Data Science, dan AI. Cara tercepat menghubungi saya adalah lewat email.",
+    "email": "adithama98@gmail.com"
+  },
+  "footer": {
+    "note": "© 2026 Adithama Mulia"
+  },
+  "case": {
+    "back": "Kembali ke beranda",
+    "links": "Tautan"
+  },
+  "cases": {
+    "akebono_lstm_forecasting": {
+      "kicker": "Case Study - Magang",
+      "title": "Predictive Maintenance LSTM untuk Spindle CNC",
+      "subtitle": "Forecasting data sensor machining untuk memberi peringatan dini degradasi spindle sebelum menyebabkan downtime tak terencana.",
+      "imageLabel": "[ placeholder diagram pipeline ]",
+      "note": "Detail rahasia perusahaan (volume produksi, metrik spesifik) tidak ditampilkan.",
+      "meta": [
+        { "label": "Konteks", "value": "Magang - PT Akebono Brake Astra Indonesia" },
+        { "label": "Periode", "value": "Agu 2025 - Feb 2026" },
+        { "label": "Peran", "value": "Machine Learning Engineer Intern" },
+        { "label": "Stack", "value": "Python · TensorFlow · Pandas · NumPy" }
+      ],
+      "sections": [
+        {
+          "heading": "Ringkasan",
+          "paragraphs": [
+            "Membangun model forecasting LSTM yang memprediksi pembacaan sensor mesin CNC lebih awal, sehingga tim maintenance mendapat peringatan dini potensi masalah spindle sebelum berujung downtime tak terduga."
+          ]
+        },
+        {
+          "heading": "Masalah",
+          "paragraphs": [
+            "Jadwal preventive maintenance yang berjalan berbasis waktu dan tidak mampu menangkap kegagalan yang terjadi di antara jendela servis. Kerusakan mendadak mengganggu produksi dan jadwal pengiriman."
+          ]
+        },
+        {
+          "heading": "Pendekatan",
+          "bullets": [
+            "Telemetri sensor di-resample ke interval yang seragam.",
+            "Window lookback/horizon geser mengubah time series menjadi sampel supervised learning.",
+            "LSTM sequence-to-sequence dilatih dengan Huber loss dan early stopping.",
+            "Seluruh pipeline dapat dikonfigurasi tanpa mengubah kode."
+          ]
+        },
+        {
+          "heading": "Hasil",
+          "paragraphs": [
+            "Keandalan prediksi +40–50% dibanding maintenance berbasis periode. Diserahkan sebagai pipeline proof-of-concept dengan dashboard simulasi untuk review internal."
+          ]
+        }
+      ]
+    },
+    "akebono_yolo_defect_detection": {
+      "kicker": "Case Study - Magang",
+      "title": "Deteksi Cacat Real-Time dengan YOLOv11",
+      "subtitle": "Inspeksi visual pass/fail otomatis untuk komponen rakitan di lini produksi.",
+      "imageLabel": "[ placeholder foto stasiun inspeksi ]",
+      "note": "Detail rahasia perusahaan (metrik deteksi, throughput) tidak ditampilkan.",
+      "meta": [
+        { "label": "Konteks", "value": "Magang - PT Akebono Brake Astra Indonesia" },
+        { "label": "Periode", "value": "Agu 2025 - Feb 2026" },
+        { "label": "Peran", "value": "Machine Learning Engineer Intern" },
+        { "label": "Stack", "value": "Python · YOLOv11 · PyTorch · OpenCV · Roboflow" }
+      ],
+      "sections": [
+        {
+          "heading": "Ringkasan",
+          "paragraphs": [
+            "Mengembangkan sistem computer vision real-time yang otomatis menginspeksi komponen rakitan di lini produksi dan mengklasifikasikannya pass/fail, menggantikan pemeriksaan visual manual."
+          ]
+        },
+        {
+          "heading": "Masalah",
+          "paragraphs": [
+            "Inspeksi kualitas visual dilakukan manual oleh operator - kelelahan dan penilaian subjektif membuat hasil tidak konsisten, dan unit cacat kadang lolos. Pencatatan hasil inspeksi lambat dan masih berbasis kertas."
+          ]
+        },
+        {
+          "heading": "Pendekatan",
+          "bullets": [
+            "Citra diambil dari kamera lini produksi.",
+            "Dataset dianotasi dan diaugmentasi di Roboflow.",
+            "Melatih model instance-segmentation YOLOv11 untuk mendeteksi beberapa checkpoint perakitan.",
+            "Program inspeksi Python membaca feed kamera live, menjalankan inferensi, dan melacak status komponen antar frame dengan mekanisme locking agar tidak flicker.",
+            "Memberi sinyal ke line controller saat semua checkpoint lolos; mendukung pergantian model sehingga satu stasiun bisa menangani beberapa varian produk."
+          ]
+        },
+        {
+          "heading": "Hasil",
+          "paragraphs": [
+            "Upaya inspeksi manual −50–70%. Di-deploy dan diuji coba di beberapa lini produksi."
+          ]
+        }
+      ]
+    },
+    "prostate_cancer_research": {
+      "kicker": "Case Study - Riset",
+      "title": "ML Race-Aware untuk Deteksi Kanker Prostat",
+      "subtitle": "Program riset dua tahun dengan empat paper tentang diagnostik genomik yang sadar bias.",
+      "imageLabel": "[ placeholder diagram pipeline riset ]",
+      "meta": [
+        { "label": "Konteks", "value": "Asisten Peneliti - Universitas Multimedia Nusantara" },
+        { "label": "Periode", "value": "Mei 2024 - Sep 2025" },
+        { "label": "Data", "value": "TCGA-PRAD (UCSC Xena)" },
+        { "label": "Stack", "value": "Python · TensorFlow · Scikit-Learn · SHAP · LIME" }
+      ],
+      "sections": [
+        {
+          "heading": "Ringkasan",
+          "paragraphs": [
+            "Program riset dua tahun yang mengkaji pendekatan ML race-specific untuk deteksi dan staging kanker prostat. Pola ekspresi gen dan metilasi DNA berbeda antar kelompok ras, dan model yang dilatih dengan data campuran berpotensi menanamkan bias.",
+            "Keempat paper secara bertahap membangun framework diagnostik race-aware yang dioptimasi dari sisi fitur - dari deteksi biner SVM, Gaussian NB, dan Logistic Regression, hingga MLP untuk klasifikasi stadium kanker dengan explainable AI (SHAP/LIME)."
+          ]
+        },
+        {
+          "heading": "Dataset",
+          "paragraphs": [
+            "TCGA-PRAD (The Cancer Genome Atlas - Prostate Adenocarcinoma) melalui UCSC Xena Browser: 554 sampel, distratifikasi per ras (mayoritas White; minoritas Black/African American dan Asian)."
+          ],
+          "bullets": [
+            "Ekspresi gen: RNA-seq HTSeq-Counts (~60 ribu gen, dinormalisasi log2(count+1)).",
+            "Metilasi DNA: Illumina HumanMethylation450 (~485 ribu CpG site).",
+            "Split race-specific untuk training; validasi eksternal pada kohort minoritas."
+          ]
+        },
+        {
+          "heading": "Linimasa Riset",
+          "bullets": [
+            "JMIR Bioinformatics & Biotechnology (2025) - deteksi kanker biner SVM dengan feature selection terverifikasi jalur DEG + ROC + MSigDB.",
+            "PeerJ Computer Science - deteksi Gaussian Naive Bayes dengan 96 kombinasi skenario dan interpretabilitas LIME.",
+            "Cancer Diagnosis and Prognosis (2025) - Logistic Regression pada subset 9 gen yang divalidasi terhadap jalur klinis KEGG/GSEA; analisis fairness antar kelompok ras.",
+            "JMIR Formative Research (2026) - klasifikasi stadium MLP (Early I–II vs Late III–IV) dari data metilasi DNA; feature selection DMP + RFE; explainability SHAP + LIME."
+          ]
+        },
+        {
+          "heading": "Hasil Utama",
+          "table": {
+            "headers": ["Paper", "Model", "Fitur", "Akurasi (White)", "Kohort Minoritas"],
+            "rows": [
+              ["JMIR Bioinf", "SVM", "139 / 9 gen", "98% / 97%", "97% / 95% (Black)"],
+              ["PeerJ CS", "Gaussian NB", "13 gen", "95%", "93% (Black)"],
+              ["Cancer Diag Prog", "Logistic Regression", "9 gen", "95%", "96.8% (Black)"],
+              ["JMIR Form Res", "MLP", "90 CpG site", "95% (AUC 0.99)", "Penurunan tajam (Asian/Black)"]
+            ]
+          }
+        }
+      ],
+      "links": [
+        { "label": "JMIR Formative Research (2026) - Penulis Utama", "url": "https://formative.jmir.org/2026/1/e82587" },
+        { "label": "JMIR Bioinformatics and Biotechnology (2025) - Penulis Kedua", "url": "https://bioinform.jmir.org/2025/1/e72423" },
+        { "label": "PeerJ Computer Science - Co-Author", "url": "https://peerj.com/articles/cs-3405/" },
+        { "label": "Cancer Diagnosis and Prognosis - Co-Author", "url": "https://doi.org/10.21873/cdp.10487" }
+      ]
+    }
+  },
+  "notFound": {
+    "title": "Halaman tidak ditemukan",
+    "message": "404 - model gagal mengklasifikasikan halaman ini.",
+    "home": "Kembali ke beranda"
+  }
+}

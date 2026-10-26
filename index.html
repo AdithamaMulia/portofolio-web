@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Adithama Mulia — Portfolio</title>
+  <meta name="description" content="Portfolio of Adithama Mulia — Informatics graduate (UMN) working in data science, machine learning, and AI: genomic research, LSTM forecasting, and real-time computer vision." />
+  <meta property="og:title" content="Adithama Mulia — Portfolio" />
+  <meta property="og:description" content="ML research and engineering portfolio: 4 published papers, LSTM predictive maintenance, YOLOv11 defect detection." />
+  <meta property="og:type" content="website" />
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=IBM+Plex+Mono:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet" />
+  <script>
+    // apply stored theme/lang before first paint to avoid a flash
+    try {
+      const s = localStorage.getItem('theme')
+      const l = localStorage.getItem('lang')
+      if (s) document.documentElement.dataset.theme = s
+      if (l) document.documentElement.lang = l
+    } catch (e) {}
+  </script>
+</head>
+<body>
+  <div id="app"></div>
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
